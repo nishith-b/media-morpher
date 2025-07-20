@@ -21,7 +21,6 @@ temp/
 # Output media & transcoding artifacts
 #========================================
 *.mp4
-*.ts
 *.m3u8
 ffmpeg-cache/
 
