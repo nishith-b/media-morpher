@@ -1,0 +1,68 @@
+#========================================
+# Node.js dependencies and logs
+#========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#========================================
+# Build and output directories
+#========================================
+dist/
+dist-ssr/
+build/
+tmp/
+temp/
+
+#========================================
+# Output media & transcoding artifacts
+#========================================
+*.mp4
+*.ts
+*.m3u8
+ffmpeg-cache/
+
+#========================================
+# Environment configuration
+#========================================
+.env
+.env.*
+
+#========================================
+# AWS credentials and config (do not commit!)
+*.pem
+.aws/
+
+#========================================
+# Logs
+logs/
+*.log
+*.gz
+
+#========================================
+# Editor and IDE files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#========================================
+# OS and temp files
+*.tmp
+*.swp
+*.local
+
+#========================================
+# Docker (optional - uncomment if needed)
+# Dockerfile
+# docker-compose*.yml
+# *.pid
