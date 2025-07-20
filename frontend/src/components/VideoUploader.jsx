@@ -56,7 +56,7 @@ const VideoUploader = () => {
     const filename = encodeURIComponent(file.name);
     const contentType = encodeURIComponent(file.type);
 
-    const api_server = process.env.API_SERVER;
+    const api_server = import.meta.env.VITE_API_URL;
 
     try {
       // Step 1: Get the signed URL from your backend
