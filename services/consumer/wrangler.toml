@@ -1,3 +1,0 @@
-name = "video-consumer"
-main = "dist/index.js"                # Path to your compiled entry point
-compatibility_date = "2025-07-20"     # Use current or recent date
