@@ -1,9 +1,6 @@
 import React, { useRef, useState } from "react";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const VideoUploader = () => {
   const fileInputRef = useRef();
